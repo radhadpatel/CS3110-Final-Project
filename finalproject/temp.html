@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<!-- DO NOT MODIFY THIS FILE! IT IS A TEMPLATE USED BY SCHEDULER TOOL -->
+
+<html>
+
+<head>
+	<title>HTML Schedule View</title>
+	<style>
+		body {
+			background-color: <?sch_bg_color>;
+			font-family: sans-serif;
+		}
+
+		h1 {
+			margin-left: 20px;
+			margin-top: 20px;
+			margin-bottom: 5px;
+		}
+
+		h2 {
+			margin-left: 20px;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		h3 {
+			margin: 0;
+		}
+
+		h4 {
+			text-align: center;
+			margin: 2px;
+			margin-bottom: 20px;
+		}
+
+		p {
+			margin: 0;
+		}
+
+		table {
+			margin: 20px 20px;
+			border-collapse: separate;
+			border-spacing: 30px 40px;
+		}
+
+		td {
+			width: 180px;
+			height: 80px;
+			margin: 20px;
+			padding: 5px;
+			border: 2px solid black;
+			background-color: <?sch_square_color>;
+		}
+
+		td.noborder {
+			background-color: <?sch_bg_color>;
+			width: 200px;
+			text-align: center;
+			border: none;
+			border-right: 2px dashed black;
+		}
+
+		tr {
+			border: 2px dashed lightgrey;
+		}
+
+		ul {
+			list-style: none;
+		}
+
+		li span {
+			font-weight: bold;
+			color: darkred;
+		}
+	</style>
+</head>
+
+<body>
+
+	<?sch>
+
+
+	<?sch_validation>
+
+		<p style="text-align:center;font-size:10pt;margin-top:30px;">
+			<em>This schedule was exported HTML information from the scheduling tool. Designed by Chris O'Brian, Lorenzo Scotto di Vettimo, and Radha Patel</em>
+		</p>
+	</body>
+</html>
