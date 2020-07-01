@@ -1,0 +1,5 @@
+Explanation for our lines of code breakdown:
+
+We wrote everything in all OCaml .ml and .mli files and everything in the export 
+template "temp.html" file. We also significantly modified and added onto the
+Makefile as well as the checkenv.sh file.
